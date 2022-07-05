@@ -1,0 +1,20 @@
+.contacts {
+  font-style: normal;
+  text-align: right;
+}
+
+.contacts__text{
+  color: #9A9A9A;
+  font-size: 11px;
+  margin-bottom: 6px;
+}
+
+.contacts__number {
+  text-decoration: none;
+  font-size: 26px;
+  margin-bottom: 2px;
+}
+.contacts__time--title {
+  font-size: 13px;
+  text-decoration: underline;
+}

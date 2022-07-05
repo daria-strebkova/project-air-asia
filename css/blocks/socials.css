@@ -1,0 +1,54 @@
+.socials {
+  margin-right: 74px;
+  margin-bottom: 12px;
+}
+
+.socials__item{
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.socials__item:last-child {
+  margin-right: 0;
+}
+
+.socials__link{
+  display: block;
+  text-decoration: none;
+  width: 36px;
+  height: 36px;
+  background: center center no-repeat;
+}
+
+.socials__link--tg .socials__link {
+  background: url(../../img/css_sprites.png) -66px -66px;
+}
+
+.socials__link--tg .socials__link:hover {
+  background: url(../../img/css_sprites.png) -122px -10px;
+}
+
+.socials__link--vk .socials__link {
+  background: url(../../img/css_sprites.png) -122px -66px;
+}
+
+.socials__link--vk .socials__link:hover {
+  background: url(../../img/css_sprites.png) -10px -122px;
+}
+
+.socials__link--fb .socials__link {
+  background: url(../../img/css_sprites.png) -66px -122px;
+}
+
+.socials__link--fb .socials__link:hover {
+  background: url(../../img/css_sprites.png) -10px -10px;
+}
+
+.socials__link--ig .socials__link {
+  background: url(../../img/css_sprites.png) -66px -10px;
+}
+
+.socials__link--ig .socials__link:hover {
+  background: url(../../img/css_sprites.png) -10px -66px;
+}

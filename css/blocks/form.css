@@ -1,0 +1,38 @@
+.form__row {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.form__input {
+  width: 100%;
+  color: #1A1B1E;
+  padding: 19px 30px 21px 30px;
+  background: #FFFFFF;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  outline: none;
+  font-size: 18px;
+}
+
+.form__input--margin {
+  margin-right: 30px;
+}
+
+.form__input--textarea {
+  padding: 29px 30px;
+  min-height: 235px;
+}
+
+.form__input:focus {
+  border-color: #F5170E;
+}
+
+.form__controls {
+  display: flex;
+  margin-bottom: 11px;
+}
+
+.form__controls-title {
+  width: 38.6%;
+  font-size: 18px;
+}

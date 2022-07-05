@@ -1,0 +1,78 @@
+.sale {
+  margin-bottom: 94px;
+}
+
+.sale__title {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 51px;
+}
+
+.sale__title::after {
+  content: url(./img/flame.png);
+  margin-left: 15px;
+}
+
+.sale__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sale__item {
+  min-height: 449px;
+  background: #fff;
+  border-radius: 5px;
+  width: calc(100% / 3 - 18px);
+}
+
+.sale__item:last-child {
+  margin-right: 0;
+}
+
+.sale-card__img {
+  border-radius: 5px 5px 0px 0px;
+}
+
+.sale__header {
+  min-height: 144px;
+  margin-bottom: 32px;
+}
+
+.sale-card__desc {
+  padding: 0px 22px 26px 22px;
+  color: #000000;
+}
+
+.sale-card__title {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 22px;
+}
+
+.sale-options {
+  display: flex;
+  justify-content: space-between;
+  color: #666666;
+  margin-bottom: 23px;
+  width: 87%;
+}
+
+.sale-options__item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sale-options__img--calendar {
+  margin-right: 12px;
+}
+
+.sale-options__img--meal {
+  margin-right: 10px;
+}
+
+.sale-card__text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  margin-bottom: 23px;
+}

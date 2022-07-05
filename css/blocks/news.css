@@ -1,0 +1,23 @@
+.news__title {
+  font-size: 36px;
+  margin-bottom: 51px;
+}
+
+.news__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.news__item {
+  width: 557px;
+  position: relative;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-right: 2.2%;
+  margin-bottom: 51px;
+  flex: 1;
+}
+
+.news__item:last-child {
+  margin-right: 0;
+}
